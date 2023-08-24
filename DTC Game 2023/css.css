@@ -1,3 +1,17 @@
 body {
-    background-color: grey;
+    background-color: rgb(117, 117, 117);
+}
+
+canvas {
+    background-color: rgb(139, 139, 139);
+    
+}
+
+.sitelayout {
+    text-align: center;
+}
+
+.tite {
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
 }
