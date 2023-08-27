@@ -1,5 +1,11 @@
 body {
     background-color: rgb(117, 117, 117);
+        display: grid;
+        width: 100%;
+        margin: auto;
+        grid-template-columns: 2fr 1fr 4fr 1fr 2fr;
+        grid-template-rows: 1fr;
+        
 }
 
 canvas {
@@ -8,7 +14,15 @@ canvas {
 }
 
 .sitelayout {
+    grid-row: 1;
+    grid-column: 3;
     text-align: center;
+    border: 0.2em;
+    border-color: azure;
+    border-style: solid;
+    position: relative;
+    top: 120px;
+    
 }
 
 .tite {
