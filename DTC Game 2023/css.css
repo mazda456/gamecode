@@ -29,3 +29,13 @@ canvas {
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.time {
+    color:aliceblue;
+    font-size: 20px;
+    grid-row: 1;
+    grid-column: 4;
+    position: relative;
+    top: 135px;
+    right: 54px;
+}
