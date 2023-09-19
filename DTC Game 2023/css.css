@@ -39,3 +39,10 @@ canvas {
     top: 135px;
     right: 54px;
 }
+
+#character {
+    width: 50px;
+    height: 50px;
+    background-color: red; /* You can replace this with an image */
+    position: absolute;
+}
