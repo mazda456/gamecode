@@ -1,6 +1,3 @@
-const canvas = document.getElementById("myCanvas");
-const ctx = canvas.getContext("2d");
-
 const character = document.getElementById("character");
 const moveAmount = 10;
 
@@ -51,4 +48,15 @@ document.addEventListener("keydown", (event) => {
             moveCharacter("down");
             break;
     }
+});
+
+window.addEventListener("load", () => {
+    const overlay = document.getElementById("overlay");
+    const closeButton = document.getElementById("closeButton");
+
+    overlay.style.display = "block";
+
+    closeButton.addEventListener("click", () => {
+        overlay.style.display = "none";
+    });
 });
